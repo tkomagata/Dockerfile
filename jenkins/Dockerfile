@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:lts
+FROM jenkins/jenkins:lts
 
 # Disable Initial Setup Wizard
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
